@@ -25,5 +25,5 @@ def find_valid_calls(planeteer_calls)
   # Return the first valid call found, or return nil if no valid calls are found
   #No map
   #Not asking for a Boolean 
-  planeteer_calls.find{|element| }
+  planeteer_calls.find{|element| element == }
 end
